@@ -1,0 +1,8 @@
+
+
+browser->server:new note ( HTTP POST) https://studies.cs.helsinki.fi/exampleapp/new_note
+server-->browser:HTTP 302
+browser->server:HTTP GET /notes
+browser->server:requêtes HTTP (main.css)
+server-->browser:requêtes HTTP (main.js)
+server-->browser:requêtes HTTP (data.json)
